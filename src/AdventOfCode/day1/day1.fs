@@ -22,7 +22,8 @@ let getSimilarityWeight (repeats: Map<int, int>, idx: int) : int =
     | None -> 0
 
 let day1solution =
-    let locations = readFile @"/home/bob/src/AdventOfCode2024/src/AdventOfCode/day1.txt"
+    let locations =
+        readFile @"/home/bob/src/AdventOfCode2024/src/AdventOfCode/day1/day1.txt"
 
     let leftList, rightList = locations |> Seq.map parseInts |> Seq.toList |> List.unzip
     let leftList = leftList |> List.sort
