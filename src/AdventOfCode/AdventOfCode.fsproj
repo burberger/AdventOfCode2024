@@ -6,6 +6,7 @@
   <ItemGroup>
     <Compile Include="Utils.fs" />
     <Compile Include="day1/day1.fs" />
+    <Compile Include="day2/RedNosedReports.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>

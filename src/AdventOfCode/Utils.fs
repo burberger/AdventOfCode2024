@@ -8,3 +8,5 @@ let readFile (filename: string) : seq<string> =
         match sr.ReadLine() with
         | null -> None
         | str -> Some(str, sr))
+
+let logDay day = printfn "\n=== Day %A ===" day
