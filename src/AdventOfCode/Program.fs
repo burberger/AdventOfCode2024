@@ -2,6 +2,7 @@
 
 open day1
 open RedNosedReports
+open MullItOver
 
 [<EntryPoint>]
 let main args =
@@ -10,5 +11,8 @@ let main args =
 
     logDay 2
     Day2Solution
+
+    logDay 3
+    Day3Solution
 
     0
